@@ -1,5 +1,5 @@
-function getTotalBooksCount(books) {
-  return books.length
+function getTotalBooksCount(books){
+  return books.reduce((acc) => acc + 1, 0);
 }
 
 function getTotalAccountsCount(accounts) {
